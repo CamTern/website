@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pommes - Vergers. Cueillette de pommes.">
+  <title>Pommes - Vergers</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">POMMES<small>Vergers</small></a>
+      <nav class="desktop-nav" aria-label="Navigation principale">
+        <a href="#accueil">Accueil</a>
+        <a href="#localisation">Localisation</a>
+        <a href="#variete">Variétés</a>
+        <a href="#culture">Culture intégrée</a>
+        <a href="galerie.html">Galerie</a>
+      </nav>
+      <div class="mobile-menu">
+        <input class="menu-toggle" id="menu-toggle" type="checkbox" aria-label="Ouvrir le menu">
+        <label class="hamburger" for="menu-toggle"><span></span><span></span><span></span></label>
+        <nav class="mobile-nav" aria-label="Navigation mobile">
+          <a href="#accueil">Accueil</a>
+          <a href="#localisation">Localisation</a>
+          <a href="#variete">Variétés</a>
+          <a href="#culture">Culture intégrée</a>
+          <a href="galerie.html">Galerie</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="accueil" class="hero">
+      <div class="hero-card">
+        <div class="hero-title">
+          <h1>Pommes<span>Vergers</span></h1>
+        </div>
+        <div class="prices">
+          <p><strong>CUEILLETTE AUX VERGERS<br><br>Ouverture : 24 septembre</strong><br><br>POMMES :
+            1,20 €/Kg</p>
+          <p><strong>JUS DE POMMES : 2,40 €/L</strong><br>→ à partir de fin octobre<br>Petite récolte à cause du temps
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="localisation" class="section">
+      <h2 class="section-title">Localisation</h2>
+      <div class="location">
+        <img src="img/caissesPommierFleurs.png" alt="Caisses de pommes et pommier en fleurs">
+      </div>
+    </section>
+
+    <section id="variete" class="section dark">
+      <h2 class="section-title">Nos variétés</h2>
+
+      <div class="variety-slider">
+        <input type="radio" name="variety" id="v1" checked>
+        <input type="radio" name="variety" id="v2">
+        <input type="radio" name="variety" id="v3">
+        <input type="radio" name="variety" id="v4">
+        <input type="radio" name="variety" id="v5">
+        <input type="radio" name="variety" id="v6">
+        <input type="radio" name="variety" id="v7">
+
+        <div class="variety-track">
+          <article class="variety v1">
+            <img src="img/Variete/Boskop.JPG" alt="Belle de Boskoop" loading="lazy">
+            <p><strong>Belle de Boskoop</strong><br>Chair proche de la Reinette, tendre et acidulée à maturité. Gonfle à la cuisson</p>
+          </article>
+          <article class="variety v2">
+            <img src="img/Variete/Corail.JPG" alt="Pinova" loading="lazy">
+            <p><strong>Pinova</strong><br>Une pomme croquante et juteuse. Sa chair est ferme, équilibrée.</p>
+          </article>
+          <article class="variety v3">
+            <img src="img/Variete/Elstar.JPG" alt="Elstar" loading="lazy">
+            <p><strong>Elstar</strong><br>Chair tendre, bon équilibre entre sucre et acidité, juteuse. Précoce, à consommer avant janvier.</p>
+          </article>
+          <article class="variety v4">
+            <img src="img/Variete/Golden.JPG" alt="Golden" loading="lazy">
+            <p><strong>Golden</strong><br>Jaune, moelleuse à maturité. Croquante, juteuse et acidulée à la récolte<br>Bonne tenue à la cuisson</p>
+          </article>
+          <article class="variety v5">
+            <img src="img/Variete/Idared.JPG" alt="Idared" loading="lazy">
+            <p><strong>Idared</strong><br>Chair blanche, sucrée, peu acidulée. Sa peau épaisse en fait une championne de la conservation.</p>
+          </article>
+          <article class="variety v6">
+            <img src="img/Variete/Jonagold.JPG" alt="Jonagold" loading="lazy">
+            <p><strong>Jonagold</strong><br>Chair juteuse et sucrée, faible acidité. Fond bien à la cuisson. Bonne conservation</p>
+          </article>
+          <article class="variety v7">
+            <img src="img/Variete/Jonagored.JPG" alt="Jonagored" loading="lazy">
+            <p><strong>Jonagored</strong><br>Chair juteuse et sucrée, faible acidité. Fond bien à la cuisson. Bonne conservation</p>
+          </article>
+        </div>
+
+        <div class="variety-controls" aria-label="Choisir une variété">
+          <label for="v1" title="Belle de Boskoop">01</label>
+          <label for="v2" title="Pinova">02</label>
+          <label for="v3" title="Elstar">03</label>
+          <label for="v4" title="Golden">04</label>
+          <label for="v5" title="Idared">05</label>
+          <label for="v6" title="Jonagold">06</label>
+          <label for="v7" title="Jonagored">07</label>
+        </div>
+      </div>
+    </section>
+
+    <section id="culture" class="section">
+      <h2 class="section-title">Des vergers en culture intégrée</h2>
+
+      <div class="culture-row">
+        <img src="img/pommiers2.JPG" alt="Pommiers dans les vergers" loading="lazy">
+        <div class="culture-text">
+          <p>C'est dans un esprit de culture «intégrée» que nous concevons notre métier d'arboriculteur depuis très
+            longtemps, tout en essayant continuellement de progresser.<br>
+            Mieux connue en Suisse ou en Allemagne, <strong> cette méthode de culture, intègre et privilégie tous les
+              facteurs qui visent à une bonne santé du sol, de l'arbre, et donc un fruit de qualité, dans le respect de
+              l'environnement et du consommateur. </strong><br><br>
+
+            <strong>Le sol est vivant et colonisé par une flore et une microfaune très nombreuses qui participent à
+              notre méthode de culture et que nous devons donc protéger :</strong><br>
+            - Nous laissons le sol enherbé. Les racines des herbes vivent, puis sèchent en hiver, créant des canaux qui
+            permettent le drainage de l'eau, la pénétration de l'air en profondeur, un effet dépolluant et une réduction
+            de l'effet de la sécheresse par évaporation et un moindre tassement du terrain par les véhicules.<br>
+            Ces racines peuvent aussi, grâce à des acides organiques qu'elles sécrètent, attaquer le sous-sol (argiles,
+            roches) et donc apporter à l'arbre une partie des sels minéraux dont il a besoin.<br>
+            - Nous n'utilisons pas d'engrais, la culture intégrée le rend inutile, et ceci d'autant plus que le broyage
+            sur place de l'herbe et du bois de taille apportent déjà de la matière organique qui se composte
+            rapidement.<br>
+            - L'utilisation de capsules de perturbateurs à phéromone permet de ne pas subir les vers du fruit.<br><br>
+            <strong>Les auxiliaires de culture jouent également un rôle très important :</strong><br>
+            - les vers de terre brassent et améliorent le sol.<br>
+            - les thyphlodromes, acariens de 0,5mm, que nous avons introduits dans les vergers depuis plus de 20 ans,
+            détruisent les araignées nuisibles. Ils évitent ainsi les traitements contre des pullulations d'araignées
+            rouges qui sucent la sève.<br>
+            - un apiculteur laisse ses ruches à proximité d'une de nos parcelles d'arbres, les abeilles assurent une
+            bonne pollinisation. C'est un autre exemple de réciprocité que permet cette méthode de culture.<br>
+            <strong>Bien que fragiles et très sensibles, ces auxiliaires sont toujours présents dans les vergers. La
+              culture intégrée contribue à leur préservation.</strong>
+          </p>
+        </div>
+      </div>
+      </div>
+
+      <div class="culture-row reverse dark">
+        <div class="culture-text">
+          <p>
+            <br><strong>Les insectes ravageurs qui s'attaquent aux pommes et pommiers sont aussi présents en
+              permanence.</strong> Mais les auxiliaires s'en nourrissent et subsistent donc grâce à ces ravageurs.
+            <strong> Un équilibre s'installe</strong>, ces ravageurs ne dépassant pas le seuil au-delà duquel leurs
+            dégâts seraient préjudiciables.<br>
+            Cette méthode est aussi respectueuse des multiples espèces vivant hors sol : elle leur permet souvent de se
+            neutraliser et donc de diminuer une prolifération, voire d'annuler une attaque qui serait favorisée si la
+            diversité de la microfaune était moins importante.<br><br>
+
+            <b>C'est donc seulement si un ravageur ou un parasite dépasse le « seuil de tolérance », donc en dernier
+              recours, que l'on envisage un traitement. Celui-ci sera bio ou alors le moins perturbant possible.</b><br>
+            La lutte contre le ver de la pomme (carpocapse) se fait à l'aide de phéromones (lutte biologique).<br>
+            Nous apportons des oligo-éléments via un concentré d'algues utilisé en Agriculture Biologique.<br>
+            La tavelure (champignon microscopique) qui s'attaque aux feuilles et aux pommes est le seul nuisible des
+            vergers qui nécessite un traitement phytosanitaire classique (6 traitements par an sur Golden, Jonagold et
+            Jonagored, 3 traitements sur Elstar, Pinova et Idared, 2 sur Belle de Boskoop).<br>
+            D'autres produits utilisés en agriculture biologique tels que le cuivre ou le soufre sont également utilisés
+            comme fongicides en complément.<br>
+            Ces traitements sont uniquement effectués d'avril à juillet sur feuillage et petits fruits.<br>
+            Nous renouvelons aussi les vergers avec des variétés récentes mais plus rustiques et nécessitant donc moins
+            de traitements.<br><br>
+            Par ailleurs, les personnes qui viennent cueillir des pommes dans nos plantations sont moins sensibles aux
+            défauts d'aspect, nous pouvons donc aller encore plus loin dans ce type de culture.<br><br>
+          </p>
+        </div>
+        <img src="img/A classer 006.JPG" alt="Verger de pommes" loading="lazy">
+      </div>
+    </section>
+
+    <section class="section dark">
+      <h2>Contact</h2>
+      <p>Pour toute question concernant les vergers, la cueillette ou les pommes :</p>
+    </section>
+  </main>
+
+  <footer>
+    <a href="mentions-legales.html">MENTIONS LÉGALES</a>
+  </footer>
+
+  <!-- WELCOME POPUP -->
+  <div id="welcome-popup" class="welcome-popup" aria-hidden="true">
+    <div class="welcome-popup-backdrop"></div>
+
+    <div class="welcome-popup-content" role="dialog" aria-modal="true" aria-labelledby="welcome-popup-title">
+
+      <button class="welcome-popup-close" type="button" aria-label="Fermer">
+        ×
+      </button>
+
+      <p class="welcome-popup-label">CUEILLETTE AUX VERGERS</p>
+
+      <h2 id="welcome-popup-title">
+        Bienvenue aux Vergers<br>
+      </h2>
+
+      <p>
+        Il n'y aura <strong>pas beaucoup de pommes</strong> cette année dû <strong>au mauvais temps</strong>
+      </p>
+
+      <p class="welcome-popup-opening">
+        Ouverture : <strong>24 septembre !</strong>
+      </p>
+
+      <div class="welcome-popup-prices">
+        <!-- <div>
+        <span>Pommes</span>
+        <strong>1,20 €/Kg</strong>
+      </div>
+
+      <div>
+        <span>Jus de pommes</span>
+        <strong>2,40 €/L</strong>
+      </div> -->
+      </div>
+
+      <p class="welcome-popup-footer">
+      </p>
+
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      const popup = document.getElementById("welcome-popup");
+      const closeButton = popup.querySelector(".welcome-popup-close");
+      const backdrop = popup.querySelector(".welcome-popup-backdrop");
+
+      function openPopup() {
+        popup.classList.add("is-open");
+        popup.setAttribute("aria-hidden", "false");
+        document.body.classList.add("popup-open");
+      }
+
+      function closePopup() {
+        popup.classList.remove("is-open");
+        popup.setAttribute("aria-hidden", "true");
+        document.body.classList.remove("popup-open");
+      }
+
+      // Open automatically when the homepage loads
+      openPopup();
+
+      // Close with the X button
+      closeButton.addEventListener("click", closePopup);
+
+      // Close when clicking outside the popup
+      backdrop.addEventListener("click", closePopup);
+
+      // Close with the Escape key
+      document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape" && popup.classList.contains("is-open")) {
+          closePopup();
+        }
+      });
+
+    });
+  </script>
+
+</body>
+
+</html>
